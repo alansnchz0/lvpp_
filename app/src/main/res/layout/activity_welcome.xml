@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lavapp.lavapp.WelcomeActivity">
+
+    <VideoView
+        android:id="@+id/video_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_horizontal_margin_64"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin_64"
+        android:layout_marginTop="@dimen/activity_horizontal_margin_64"
+        android:src="@drawable/lavapp_logo"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:theme="@style/AccentFlatButton"
+        android:layout_width="256dp"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:text="@string/action_sign_in_es"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/button_register"
+        android:theme="@style/PrimaryFlatButton"
+        android:layout_width="256dp"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/activity_vertical_margin_128"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:text="@string/action_register_es"/>
+</RelativeLayout>

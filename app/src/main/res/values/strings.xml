@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Lavapp</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="action_register_es">Crear cuenta</string>
+    <string name="action_register_new">Regístrate</string>
+    <string name="action_sign_in_es">Iniciar Sesión</string>
+    <string name="title_activity_register">RegisterActivity</string>
+
+    <string name="prompt_password_register">Password</string>
+    <string name="prompt_first_name">Nombre(s)</string>
+    <string name="prompt_last_name">Apellido(s)</string>
+    <string name="prompt_birthday">Fecha de nacimiento</string>
+    <string name="prompt_gender">Sexo</string>
+
+    <string name="adv_register">Al registrarte, estás aceptando los <b>Terminos y condiciones de uso</b> y la <b>Política de privacidad de Lavapp.</b></string>
+</resources>
