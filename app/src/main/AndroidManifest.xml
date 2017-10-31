@@ -29,7 +29,8 @@
             android:name=".RegisterActivity"
             android:label="@string/title_activity_register"
             android:theme="@style/AppTheme"
-            android:parentActivityName="com.lavapp.lavapp.WelcomeActivity"/>
+            android:parentActivityName="com.lavapp.lavapp.WelcomeActivity"
+            android:windowSoftInputMode="adjustPan"/>
     </application>
 
 </manifest>

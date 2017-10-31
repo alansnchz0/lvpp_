@@ -13,6 +13,7 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="description_logo">App logo</string>
 
     <string name="action_register_es">Crear cuenta</string>
     <string name="action_register_new">Regístrate</string>
