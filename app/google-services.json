@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "928470695925",
+    "firebase_url": "https://lvpp-88dfa.firebaseio.com",
+    "project_id": "lvpp-88dfa",
+    "storage_bucket": "lvpp-88dfa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928470695925:android:2e261a89b9017eee",
+        "android_client_info": {
+          "package_name": "com.lavapp.lavapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928470695925-sch3c5p9evkhncol2hbakfar9mrghvma.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lavapp.lavapp",
+            "certificate_hash": "892450533ecd103bd93ee8bf71e280c29755df5d"
+          }
+        },
+        {
+          "client_id": "928470695925-5bgal94i9ohanr1l76nes68nhtt6ph3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBusn06nYe9v6EQgNUbzpzcMkvM_CXlAN4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928470695925-5bgal94i9ohanr1l76nes68nhtt6ph3l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
